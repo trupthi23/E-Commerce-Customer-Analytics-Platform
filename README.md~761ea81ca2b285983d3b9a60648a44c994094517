@@ -1,40 +1,66 @@
 # 🛒 E-Commerce Business Intelligence & Customer Analytics
 
-A comprehensive Business Intelligence and Customer Analytics project built using **MySQL** and **Power BI** to analyze over **100,000+ e-commerce transactions** from the Brazilian Olist dataset. This project uncovers customer behavior, sales performance, seller insights, and operational metrics through advanced SQL analysis and interactive dashboards.
+<p align="center">
+
+![GitHub Repo stars](https://img.shields.io/github/stars/trupthi23/E-Commerce-Customer-Analytics-Platform?style=for-the-badge)
+
+![GitHub forks](https://img.shields.io/github/forks/trupthi23/E-Commerce-Customer-Analytics-Platform?style=for-the-badge)
+
+![SQL](https://img.shields.io/badge/SQL-MySQL-blue?style=for-the-badge)
+
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge)
+
+![DAX](https://img.shields.io/badge/DAX-Analytics-orange?style=for-the-badge)
+
+![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?style=for-the-badge)
+
+</p>
 
 ---
 
-## 📌 Project Overview
+## 📊 Dashboard Preview
 
-The objective of this project is to transform raw e-commerce data into meaningful business insights by combining **SQL-based analytics** with **interactive Power BI dashboards**.
+> *(Replace the image path below with your actual screenshot.)*
 
-The analysis focuses on:
-
-- Revenue and sales performance
-- Customer behavior and retention
-- Seller performance
-- Product category analysis
-- Geographic sales insights
-- Operational KPIs and delivery performance
+![Dashboard](Screenshots/Executive_Overview.png)
 
 ---
 
-## 📂 Dataset
+# 📌 Project Overview
+
+This project is an end-to-end **Business Intelligence & Customer Analytics** solution built using **MySQL** and **Power BI**. Using the Brazilian Olist E-Commerce dataset containing **100,000+ transactions**, the project analyzes customer behavior, revenue trends, seller performance, product insights, and operational KPIs through advanced SQL queries and interactive dashboards.
+
+---
+
+# 🎯 Objectives
+
+- Analyze business performance
+- Understand customer purchasing behavior
+- Identify top-performing sellers
+- Evaluate product category performance
+- Track monthly revenue trends
+- Generate business KPIs
+- Build an executive Power BI dashboard
+
+---
+
+# 📂 Dataset
 
 **Dataset:** Brazilian E-Commerce Public Dataset by Olist
 
-The dataset contains information about:
+Dataset includes:
 
 - Customers
 - Orders
-- Products
+- Order Items
 - Sellers
+- Products
 - Payments
 - Reviews
-- Order Items
 - Geolocation
 
-**Source:**
+📥 Dataset Source
+
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ---
@@ -42,10 +68,10 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 # 🛠 Tech Stack
 
 | Category | Technologies |
-|----------|--------------|
+|------------|----------------|
 | Database | MySQL |
 | Query Language | SQL |
-| Business Intelligence | Power BI |
+| Dashboard | Power BI |
 | Data Modeling | DAX |
 | Version Control | Git & GitHub |
 
@@ -53,47 +79,39 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 # 📊 Project Workflow
 
-```
-Raw CSV Dataset
-        │
-        ▼
-Import into MySQL
-        │
-        ▼
-Database Design & Data Validation
-        │
-        ▼
-Business KPI Analysis
-        │
-        ▼
-Customer Analytics
-        │
-        ▼
-Seller & Product Analytics
-        │
-        ▼
-Advanced SQL Insights
-        │
-        ▼
+```text
+CSV Dataset
+      │
+      ▼
+MySQL Database
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+SQL Analysis
+      │
+      ▼
+Business KPIs
+      │
+      ▼
 Power BI Dashboard
-        │
-        ▼
-Business Intelligence Reports
+      │
+      ▼
+Business Insights
 ```
 
 ---
 
-# 📈 SQL Analysis
-
-The project demonstrates advanced SQL concepts including:
+# 💻 SQL Concepts Used
 
 - INNER JOIN
 - LEFT JOIN
-- Common Table Expressions (CTEs)
-- Aggregate Functions
 - GROUP BY
 - HAVING
 - CASE Statements
+- Common Table Expressions (CTEs)
+- Aggregate Functions
 - Window Functions
 - ROW_NUMBER()
 - RANK()
@@ -105,61 +123,59 @@ The project demonstrates advanced SQL concepts including:
 
 ---
 
-# 📌 Business Questions Answered
+# 📈 Business Questions Solved
 
-- Which product categories generate the highest revenue?
+- Which products generate the highest revenue?
 - Which sellers perform the best?
-- Which states and cities contribute the most revenue?
+- Which states contribute the highest sales?
 - Who are the top customers?
 - What are the monthly sales trends?
-- What are the most popular payment methods?
-- How does delivery performance affect customer satisfaction?
-- Which products receive the highest ratings?
+- Which payment methods are most popular?
+- How does delivery performance impact customer satisfaction?
 
 ---
 
 # 📊 Dashboard Pages
 
-## 1️⃣ Executive Overview
+## 📌 Executive Overview
 
-- Total Revenue
+- Revenue KPIs
 - Total Orders
-- Total Customers
+- Customers
 - Average Order Value
 - Monthly Revenue Trend
-- Revenue by State
+- Geographic Sales
 
 ---
 
-## 2️⃣ Customer Analytics
+## 👥 Customer Analytics
 
 - Customer Growth
 - Top Customers
-- Customer Distribution
-- Customer Purchase Analysis
+- Customer Purchase Distribution
+- Customer Behaviour
 
 ---
 
-## 3️⃣ Seller & Product Analytics
+## 🛍 Seller & Product Analytics
 
 - Top Sellers
-- Revenue by Product Category
-- Product Performance
-- Seller Performance
+- Product Categories
+- Revenue by Category
+- Seller Rankings
 
 ---
 
-## 4️⃣ Business Insights
+## 📦 Business Insights
 
-- Revenue by Payment Type
-- Order Status Analysis
+- Payment Analysis
 - Delivery Performance
 - Customer Satisfaction
 - Geographic Analysis
 
 ---
 
-# 📷 Dashboard Preview
+# 📷 Dashboard Screenshots
 
 ## Executive Overview
 
@@ -187,21 +203,22 @@ The project demonstrates advanced SQL concepts including:
 
 # 💡 Key Insights
 
-- Analyzed over **100,000+ e-commerce transactions**.
-- Identified top-performing product categories and sellers.
-- Uncovered customer purchasing patterns and retention insights.
-- Evaluated monthly revenue trends and regional sales performance.
-- Built an interactive dashboard to support business decision-making.
+- 📈 Analyzed **100,000+** e-commerce transactions.
+- 🛒 Identified top-performing products and sellers.
+- 👥 Discovered customer purchasing patterns.
+- 🌎 Analyzed geographic sales distribution.
+- 📦 Evaluated delivery performance and customer satisfaction.
+- 📊 Built an interactive Power BI dashboard for business decision-making.
 
 ---
 
 # 📁 Project Structure
 
-```
-E-Commerce-Business-Intelligence-Customer-Analytics
+```text
+E-Commerce-Customer-Analytics-Platform
+
 │
 ├── Dataset
-│
 ├── SQL
 │   ├── 01_database_setup.sql
 │   ├── 02_data_quality_checks.sql
@@ -229,9 +246,9 @@ E-Commerce-Business-Intelligence-Customer-Analytics
 
 # 🚀 Future Improvements
 
-- Customer Segmentation (RFM Analysis)
-- Customer Lifetime Value Prediction
-- Sales Forecasting
+- Customer Segmentation (RFM)
+- Customer Lifetime Value (CLV)
+- Revenue Forecasting
 - Customer Churn Prediction
 - Product Recommendation System
 
@@ -239,12 +256,14 @@ E-Commerce-Business-Intelligence-Customer-Analytics
 
 # 👩‍💻 Author
 
-**Trupthi K B**
+### **Trupthi K B**
 
 AI & Data Science Student
 
-GitHub: https://github.com/trupthi23
+### Connect with Me
+
+- GitHub: https://github.com/trupthi23
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a star!
+## ⭐ If you found this project helpful, please consider giving it a star!

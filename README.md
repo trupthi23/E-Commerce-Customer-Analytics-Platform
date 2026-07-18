@@ -20,8 +20,6 @@
 
 ## 📊 Dashboard Preview
 
-> *(Replace the image path below with your actual screenshot.)*
-
 ![Dashboard](Screenshots/Executive_Overview.png)
 
 ---
